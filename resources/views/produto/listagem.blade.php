@@ -26,4 +26,9 @@
     Um ou menos itens no estoque!
 </div>
 
+<div class="alert alert-success">
+    <strong>Sucesso!</strong> O produto {{ old('nome') }} foi adicionado.
+</div>
+
+
 @stop
