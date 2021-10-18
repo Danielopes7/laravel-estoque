@@ -16,6 +16,9 @@
                 <a href="/produtos/mostra/{{$p->id}}">
                     <span  class="btn btn-primary" href="#" role="button"> Visualizar </span>
                 </a>
+                <a href="{{action('ProdutoController@remove', $p->id)}}">
+                    <span class="btn btn-primary" href="#" role="button"> Excluir </span>
+                </a>
             </td>
         
         </tr>
